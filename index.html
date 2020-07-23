@@ -14,14 +14,15 @@
             <h1>Analyzing Authorship of Disputed Federalist Papers Using Unsupervised Machine Learning</h1>
             <h2>Alice Liu, Ishita Abrol, Saathvik Selvan, Sushant Kannan</h2>
         <h3>Abstract</h3>
-        <p>This paper aims to solve the controversy over authorship for The Federalists Papers by utilizing an unsupervised machine learning algorithm for authorship attribution. To solve this classification problem, we trained a KMeans model on a matrix of features from the articles with known authorship. Then we compared the predicted label of the received unknown to the labels of the known documents through multiple features including lexical and syntactic features. The author can then be identified for the unknown document if the similarity level is close to each feature, which is seen in the labels.</p>
+        <p>One of the most important topics in the field of Natural Language Processing is authorship attribution, which deals with texts whose authorship is uncertain. It mainly focuses on writing style instead of topic matter. We use computational stylometry to convert given sets of text into numerical values that can then be processed and analyzed using various models. These numerical values usually represent lexical, syntactic, and/or semantic features. 
+            This paper discusses our approach to solve the controversy over authorship for several of The Federalists Papers by utilizing an unsupervised machine learning algorithm for authorship attribution. After prepossessing each paper, we extracted two features from the articles- TF-IDF and punctuation count frequencies. Then, we trained a KMeans clustering model on a matrix consisting of the features from articles with known authorship. The accuracy of this model was 81.82\%.To predict the authors of contested papers, we ran their collected features through our KMeans model and matched the resulting labels with the labels of our known papers. From doing so, We found that the majority of the documents were authored by Hamilton.</p>
         <h3>Github Link</h3>
         <a href="https://github.com/MehtaPlusTutoring-MLBootcamp20/FreshPagesWebsite">Our Code!</a>
         <h3>Our Poster </h3>
         <img src="poster.PNG" alt="Poster">
         <h3>Our Paper </h3>
         <!--insert flipbookpdf-->
-        <iframe  style="width:800px;height:800px"  src=""  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
+        <iframe  style="width:800px;height:800px"  src="https://flipbookpdf.net/web/site/f3784d3d009bb4ba51193f3a615481f1d58ac085202007.pdf.html"  seamless="seamless" scrolling="no" frameborder="0" allowtransparency="true"></iframe>
         <h3>Our Demo </h3>
         <!--insert youtube vid-->
         <iframe width="560" height="315" src="https://www.youtube.com/embed/Xl0lEJ4Dd_o" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
